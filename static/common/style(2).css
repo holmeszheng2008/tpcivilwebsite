@@ -560,6 +560,9 @@ a.btn-secondary:hover {
 #student-news-page #bulletin-control {
   margin-bottom: 40px;
 }
+.card-container {
+  margin-top: 5px;
+}
 #student-news-page .card-container {
   margin-bottom: 30px;
 }

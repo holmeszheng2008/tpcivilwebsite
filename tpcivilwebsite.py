@@ -15,6 +15,14 @@ def bulletin():
         file = "bulletin/" + bulletin_id + ".html"
     return render_template(file)
 
+@app.route('/project')
+def project():
+    project_id = request.args.get('project_id')
+    file = 'project.html'
+    if project_id is not None:
+        file = "project/" + project_id + ".html"
+    return render_template(file)
+
 @app.route('/intro')
 def intro():
     return render_template("intro.html")

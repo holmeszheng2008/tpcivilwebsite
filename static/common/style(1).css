@@ -5271,6 +5271,11 @@ input[type=button].btn-block {
   border-top-right-radius: calc(0.25rem - 1px);
 }
 
+.card-img-top-addon-style {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
 .card-img,
 .card-img-bottom {
   border-bottom-right-radius: calc(0.25rem - 1px);
@@ -12000,7 +12005,12 @@ p {
   text-align: left;
   font-size: 1.2em;
 }
-
+.card-body-addon-style {
+  background-color: #EAEAEA;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 250px
+}
 #search-form #search-scope-options {
   padding: 10px 20px 20px 20px;
 }
@@ -12160,9 +12170,17 @@ img.aligncenter {
 }
 
 .f_size_3 {
-  font-size: 21px;
+  font-size: 20px;
 }
 
 #News {
   padding-top: 20px;
+}
+
+.div_border {
+  border: thin solid #000000;
+}
+
+.whitespace_pre {
+  white-space: pre;
 }

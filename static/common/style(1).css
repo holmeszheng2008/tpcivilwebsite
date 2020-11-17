@@ -11486,6 +11486,9 @@ h3 {
 #mcmaster-header #mcmaster-logo-container a > img {
   max-height: 80px;
 }
+.tpcivil-logo {
+  max-height: 91px;
+}
 #mcmaster-header #degroote-logo-container {
   border-left: 1px solid #5E6A71;
 }

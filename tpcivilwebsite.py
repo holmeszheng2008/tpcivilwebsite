@@ -23,6 +23,10 @@ def project():
         file = "project/" + project_id + ".html"
     return render_template(file)
 
+@app.route('/recruitment')
+def recruitment():
+    return render_template("recruitment.html")
+
 @app.route('/intro')
 def intro():
     return render_template("intro.html")

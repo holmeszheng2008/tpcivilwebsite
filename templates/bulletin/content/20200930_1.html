@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="main-content">
+    <!-- Content wrapper -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <article>
+                    <h1 class="text-center mt-3">生产建设项目水土保持监测季度报告表</h1>
+                    <div class="div_border mt-3">
+                        <p class="mt-1 whitespace_pre"> 工程名称：长春至双阳公路 建设单位：长春市长双公路建设管理中心</p>
+                        <p class="whitespace_pre"> 监测时段：2020年7月1日—2020年9月30日 监测单位：吉林省鲲达工程咨询有限公司</p>
+                        <p class="whitespace_pre"> 监测人员：包权、刘双宇 填表时间：2020年9月30日</p>
+                    </div>
+                    <hr>
+                    <div class="z_cen_box f_size_2">
+                        <h2>1、项目概况</h2>
+                        <p>长春至双阳公路为新建建设类项目。</p>
+                        <p>本项目建设地点为长春市。路线起点位于小南屯北约700米，与新城大街平交向东布线，至曾家沟后向东南经庙家窝堡、上窑屯、贺家屯西沟、张棚铺、热闹屯、下洼子、西加信屯、林家屯、杨珠店、侯家屯、孟家岗子以及位于鹿乡镇东侧三公里处的李家屯、崔家庙、刘家屯、张家沟，终点与双阳大街相接，位于长双烟铁路通道桥前。项目法人单位长春市长双公路建设管理中心。
+                        </p>
+                        <p>本项目主线长33.799公里，共设置大中桥972米/10座；小桥263米/13座；涵洞共78道，养护管理站2处，平面交叉39处。设置奢岭连接线3.748公里、鹿乡至双营子连接线7.398公里。
+                        </p>
+                        <h2>2、项目施工进度情况</h2>
+                        <p>本项目截至到2020年9月30日，本季度完成：路基挖方完成247231m3，路基填土方完成181910m3；特殊路基挖淤101045m3，换填山皮石73364 m3，便道长度5277m。
+                        </p>
+                        <p>桥梁桩基累计完成422根，25m箱梁完成15片，涵洞涵身浇筑完成1023.6延米，友谊大桥承台完成1个，墩柱完成15根，贺家屯中桥承台完成4个，墩柱完成9个，新化屯中桥承台完成2个；
+                            K2+727盖板涵完成；K3+255.5盖板涵完成；K3+614盖板涵完成，K4+406.5盖板涵完成，K7+340盖板涵完成，K8+220盖板涵完成，K16+075箱涵完成，K17+016盖板涵完成，K18+730盖板涵完成，K18+881盖板涵完成，K19+157盖板涵完成，K19+780盖板涵完成。
+                        </p>
+                        <h2>3、本季度水土保持监测完成情况</h2>
+                        <p>我单位与建设单位签订水土保持监测合同，签订合同后组织构建了国道长春至双阳公路建设项目水土保持监测小组，并展开监测工作。</p>
+                        <p>2020年第三季度，我单位按照线路区、施工便道区、施工生产生活区、及临时堆土场区进行现场踏查及实地监测。本项目在2020年第三季度已进行施工作业。</p>
+                        <p><strong>本季度三色评价结论为：绿色。</strong></p>
+                        <p><strong>本监测季报已在官方网站公开，并在业主项目部和施工项目部公开。</strong></p>
+                    </div>
+                    <p><img loading="lazy" class="aligncenter size-full wp-image-99424"
+                            src="/static/bulletin/20200930_1/report_chart.jpg" alt="bulletin_20201114_1.jpg"
+                            width="1200" height="auto""></p>
+                    <hr/>
+                    <h2 >监测现场照片</h2>
+                    <p><img loading=" lazy" class="aligncenter size-full wp-image-99424"
+                            src="/static/bulletin/20200930_1/1.jpg" alt="20200930_1/1.jpg" width="512" height="auto"
+                            sizes="(max-width: 1024px) 100vw, 1024px"></p>
+                    <p><img loading="lazy" class="aligncenter size-full wp-image-99424"
+                            src="/static/bulletin/20200930_1/2.jpg" alt="20200930_1/2.jpg" width="512" height="auto"
+                            sizes="(max-width: 1024px) 100vw, 1024px"></p>
+                    <p><img loading="lazy" class="aligncenter size-full wp-image-99424"
+                            src="/static/bulletin/20200930_1/3.jpg" alt="20200930_1/3.jpg" width="512" height="auto"
+                            sizes="(max-width: 1024px) 100vw, 1024px"></p>
+                    <p><img loading="lazy" class="aligncenter size-full wp-image-99424"
+                            src="/static/bulletin/20200930_1/4.jpg" alt="20200930_1/4.jpg" width="512" height="auto"
+                            sizes="(max-width: 1024px) 100vw, 1024px"></p>
+                </article>
+            </div><!-- col -->
+        </div><!-- row -->
+    </div><!-- container-fluid -->
+</div> <!-- close Content wrapper -->
+<div id="page">
+    <div class="page-inner text-center">
+        <a href={{ url_for('bulletin', bulletin_id="20200930_1" ) }} class="n">&lt;上一页 </a>
+        <a href={{ url_for('bulletin', bulletin_id="20210125_1" ) }} class="n">下一页 &gt;</a>
+    </div>
+</div>
+{% endblock %}

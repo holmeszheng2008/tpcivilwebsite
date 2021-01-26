@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="main-content">
+    <!-- Content wrapper -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <article>
+                    <h1 class="text-center mt-3">生产建设项目水土保持监测季度报告表</h1>
+                    <div class="div_border mt-3">
+                        <p class="mt-1 whitespace_pre"> 工程名称：省道扎突公路与平齐铁路交叉道口（洮南市南出口）平改立工程</p>
+                        <p class="mt-1 whitespace_pre"> 建设单位：白城市交通运输局</p>
+                        <p class="whitespace_pre"> 监测时段：2020年7月1日—2020年9月30日 监测单位：吉林省鲲达工程咨询有限公司</p>
+                        <p class="whitespace_pre"> 监测人员：包权、刘双宇 填表时间：2020年9月30日</p>
+                    </div>
+                    <hr>
+                    <p><img loading="lazy" class="aligncenter size-full wp-image-99424"
+                            src="/static/bulletin/20210125_6/report_chart.jpg" alt="bulletin_20210125_6.jpg" width="600"
+                            height="auto""></p>
+                </article>
+            </div><!-- col -->
+        </div><!-- row -->
+    </div><!-- container-fluid -->
+</div> <!-- close Content wrapper -->
+<div id="page">
+    <div class="page-inner text-center">
+        <a href={{ url_for('bulletin', bulletin_id="20210125_5" ) }} class="n">&lt;上一页 </a>
+        <a href={{ url_for('bulletin', bulletin_id="20210125_7" ) }} class="n">下一页 &gt;</a>
+    </div>
+</div>
+{% endblock %}
